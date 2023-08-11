@@ -40,7 +40,6 @@ namespace EnemyScripts.AIScripts
         private RangeEnemyAttackScript __RangeEnemyAttackScript; //Todo: Enemy objesi uzaktan vuruyorsa _nearEnemyAttackScript'ini kaldır.
         private HealtBarBugFixed _healtBarBugFixed;
 
-
         private Vector2 direction; // bu Enemy'e karşılık Player hangi yönde onu bulur.   -1 ise Enemy Player'ın sağında
         public Vector2 startingPosition; // Başlangıç pozisyonu
         public Vector2 basePosition; // Base pozisyonu

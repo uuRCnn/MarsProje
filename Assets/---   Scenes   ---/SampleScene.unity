@@ -6438,6 +6438,7 @@ MonoBehaviour:
   HowToPlayMenu: {fileID: 288403879}
   _playerScript: {fileID: 999068446}
   CrashPlayerVehicle: {fileID: 1860611701}
+  SpawnShip: {fileID: 570766334}
   isGameStart: 0
   _Text1: {fileID: 293173228}
   _Text2: {fileID: 1117436708}
@@ -13199,6 +13200,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566597483}
   m_CullTransparentMesh: 0
+--- !u!1 &570766334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4887164577704686392, guid: e4e663a29e55c4dffa3f8fedb823a0bc, type: 3}
+  m_PrefabInstance: {fileID: 4887164577445685117}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &573253786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50484,7 +50490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4887164577704686392, guid: e4e663a29e55c4dffa3f8fedb823a0bc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4e663a29e55c4dffa3f8fedb823a0bc, type: 3}

@@ -16,6 +16,9 @@ namespace ______Scripts______.UIScripts.Canvas.Buttons
         [SerializeField] private PlayerScript _playerScript;
 
         [SerializeField] private GameObject CrashPlayerVehicle;
+
+        [SerializeField] private GameObject SpawnShip;
+
         public bool isGameStart = false;
 
         [SerializeField] private GameObject _Text1;
@@ -52,6 +55,7 @@ namespace ______Scripts______.UIScripts.Canvas.Buttons
 
         public void StartGame() // bunu OpenNickName.cs te çagırıyorum
         {
+            SpawnShip.SetActive(true);
             CrashPlayerVehicle.SetActive(true);
             RB2.gravityScale = 1;
             _playerScript.totalScore = 0;
@@ -64,7 +68,7 @@ namespace ______Scripts______.UIScripts.Canvas.Buttons
             _audioSource.PlayOneShot(_audioClipElectir);
 
             HowToPlayMenu.StartGameOpenHowToPlayMenu();
-            
+
             Invoke("Explosion1", 1f);
             Invoke("Explosion5", 1.8f);
             Invoke("Explosion2", 3.2f);

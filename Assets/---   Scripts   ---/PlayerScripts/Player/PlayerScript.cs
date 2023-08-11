@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using ______Scripts______.GameManagerScript.SkillsScripts;
 using ______Scripts______.PlayerScripts.Player;
@@ -37,7 +38,7 @@ namespace PlayerScripts.Player
         [SerializeField] public float armor; // armor 10 ise %10 hasar azaltır. max 100 olur
         public float ExtraArmor = 0;
         public int totalScore = 0;
-        
+
         [SerializeField] private Transform touchGrand;
         private float knockbackForce = 750;
 
